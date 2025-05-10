@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/responsive-social-links-profile-E69hT8BWYl)
+- Live Site URL: [Live Site](https://matiasbastarrica.github.io/social-links-profile-main/)
 
 ## My process
 
@@ -50,4 +50,4 @@ In the future I would like to gain confidence using media queries.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@MatiasBastarrica](https://www.frontendmentor.io/profile/MatiasBastarrica)
