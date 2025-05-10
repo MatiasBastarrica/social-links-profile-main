@@ -98,11 +98,11 @@ main {
 .social-links-profile a {
   text-decoration: none;
   color: inherit;
-  padding: 1rem;
+  padding: 0.925rem;
   background-color: var(--grey-700);
   font-weight: 700;
   border-radius: 7px;
-  font-size: 0.925rem;
+  font-size: 0.85rem;
 }
 
 .social-links-profile a:hover {
