@@ -21,3 +21,48 @@ img {
   display: block;
   width: 100%;
 }
+
+/* ### GENERAL STYLING ### */
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  background-color: var(--grey-900);
+  color: var(--white);
+}
+
+/* ### SOCIAL-LINKS-PROFILE ### */
+
+.social-links-profile {
+  background-color: var(--grey-800);
+}
+
+.social-links-profile img {
+  max-width: 85px;
+}
+
+.social-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.social-location {
+  color: var(--green);
+  font-size: 0.925rem;
+  font-weight: 600;
+}
+
+.social-description {
+  color: hsl(0, 0%, 87%);
+  font-weight: 400;
+  font-size: 0.925rem;
+}
+
+.social-links-profile a {
+  text-decoration: none;
+  color: inherit;
+  padding: 0.5rem;
+  background-color: var(--grey-700);
+  font-weight: 700;
+  border-radius: 7px;
+}
