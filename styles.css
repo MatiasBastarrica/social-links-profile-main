@@ -31,31 +31,55 @@ body {
   color: var(--white);
 }
 
+/* ### UTILITIES ### */
+
+.flex-spacer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacer);
+}
+
 /* ### SOCIAL-LINKS-PROFILE ### */
 
 .social-links-profile {
   background-color: var(--grey-800);
+  text-align: center;
+  padding: 1.5rem;
+  width: 335px;
 }
 
 .social-links-profile img {
   max-width: 85px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.7rem;
 }
 
 .social-title {
   font-size: 1.5rem;
   font-weight: 700;
+  margin-bottom: 0.625rem;
 }
 
 .social-location {
   color: var(--green);
   font-size: 0.925rem;
   font-weight: 600;
+  margin-bottom: 1.8rem;
 }
 
 .social-description {
   color: hsl(0, 0%, 87%);
   font-weight: 400;
   font-size: 0.925rem;
+  margin-bottom: 1.6rem;
+}
+
+.social-links-profile nav {
+  --spacer: 1rem;
+  /* align-items: center;
+  justify-content: stretch;
+  */
 }
 
 .social-links-profile a {
