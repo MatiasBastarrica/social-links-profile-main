@@ -98,3 +98,14 @@ main {
   font-weight: 700;
   border-radius: 7px;
 }
+
+.social-links-profile a:hover {
+  color: var(--grey-900);
+  background-color: var(--green);
+}
+
+.social-links-profile a:focus {
+  outline: 5px solid var(--white);
+  color: var(--grey-900);
+  background-color: var(--green);
+}
