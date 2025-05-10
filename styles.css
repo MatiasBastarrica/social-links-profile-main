@@ -36,6 +36,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 2rem;
 }
 
 /* ### UTILITIES ### */
@@ -51,8 +52,9 @@ main {
 .social-links-profile {
   background-color: var(--grey-800);
   text-align: center;
-  padding: 1.5rem;
-  width: 335px;
+  padding: 2.5rem;
+  width: 400px;
+  min-width: 317px;
   border-radius: 15px;
 }
 
@@ -83,20 +85,24 @@ main {
   margin-bottom: 1.6rem;
 }
 
+@media (max-width: 375px) {
+  .social-links-profile {
+    padding: 1.4rem;
+  }
+}
+
 .social-links-profile nav {
   --spacer: 1rem;
-  /* align-items: center;
-  justify-content: stretch;
-  */
 }
 
 .social-links-profile a {
   text-decoration: none;
   color: inherit;
-  padding: 0.5rem;
+  padding: 1rem;
   background-color: var(--grey-700);
   font-weight: 700;
   border-radius: 7px;
+  font-size: 0.925rem;
 }
 
 .social-links-profile a:hover {
